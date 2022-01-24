@@ -1,0 +1,33 @@
+/* 
+Be in a separate file and linked to in the HTML page (assume the files are next to each other on the filesystem) (1)
+The table should have a border and the header should be styled differently from the table data (4)
+*/
+/*Solid border around table and between cells*/
+table, th, td{
+  border: 3px solid black;
+  text-align: center;
+
+  /* Tables should be centered, with a top margin to provide space between tables. */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+table {
+  width:100%
+}
+/*Background color for the header with a complementary font color*/
+th {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+}
+
+
+caption{
+  text-decoration: underline;
+  text-shadow: 2px 2px black;
+  font-size: 30px
+
+}
+
